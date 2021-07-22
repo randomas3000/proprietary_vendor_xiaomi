@@ -18,6 +18,7 @@ on property:dev.bootcomplete=1
     chown system system /sys/class/qcom-battery/smart_batt
     chown system system /sys/class/qcom-battery/shipmode_count_reset
     chown system system /sys/class/qcom-battery/sport_mode
+    chown system system /sys/class/qcom-battery/server_result
     chmod 0660 /sys/class/qcom-battery/reverse_chg_mode
     chmod 0660 /sys/class/qcom-battery/rx_cr
     chmod 0660 /sys/class/qcom-battery/input_suspend
@@ -29,6 +30,7 @@ on property:dev.bootcomplete=1
     chmod 0660 /sys/class/qcom-battery/smart_batt
     chmod 0660 /sys/class/qcom-battery/shipmode_count_reset
     chmod 0660 /sys/class/qcom-battery/sport_mode
+    chmod 0660 /sys/class/qcom-battery/server_result
 
 service micharge-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
     class hal
