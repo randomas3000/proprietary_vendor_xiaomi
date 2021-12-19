@@ -539,6 +539,7 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     QtiTelephonyService \
     WfdService \
+    libantradio \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
